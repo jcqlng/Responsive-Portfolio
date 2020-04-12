@@ -8,6 +8,7 @@
 .content-body {
     text-align: center;
     background-image: url("stucco.png");
+    background-repeat: repeat;
     min-height: 100%;
     flex: 10 auto;
 }
@@ -63,7 +64,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh;
 }
 
 html {
@@ -80,7 +81,7 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 
 li a {
@@ -196,9 +197,8 @@ address {
         margin: 0px;
         display: flex;
         flex-direction: column;
-        height: 100%;
-        background-image: url("stucco.png");
-        background-repeat: repeat-y;
+        min-height: 100vh;
+        
     }
 
     .logo {
@@ -212,7 +212,7 @@ address {
     }
 
     footer {
-        margin-top: 120%;
+        position: relative;
         bottom: 0;
     }
 
@@ -248,10 +248,39 @@ address {
     }
 
     .img-container {
-        float: none;
+        float: left;
+        clear: right;
         position: relative;
-        width: 50%;
-        max-width: 200px;
+        width: 100%;
+        max-width: 400px;
         margin: 5px
+    }
+
+    .image {
+        display: block;
+        width: 400px;
+        height: auto;
+    }
+    
+    .overlay {
+        position: absolute; 
+        bottom: 0; 
+        margin-bottom: 25px;
+        background: #4AAAA5;
+        width: 400px;
+        color: white;
+        font-size: 20px;
+        padding: 0px;
+        text-align: center !important;
+        float: none;
+    }
+    
+    .photo-title {
+        color: #f1f1f1 !important;
+        display: block;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+        font-size: small;
     }
 }
