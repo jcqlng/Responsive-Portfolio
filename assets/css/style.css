@@ -79,11 +79,11 @@ html {
 
 ul {
     text-decoration: none;
-    float:right;
     display: block;
     clear: right;
     list-style: none;
     margin-top: 35px;
+    width: 10px;
 }
 
 li {
