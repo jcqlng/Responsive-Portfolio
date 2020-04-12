@@ -198,4 +198,19 @@ address {
         width: 95%;
         text-align: center;
     }
+
+    ul {
+        text-decoration: none;
+        clear: right;
+        list-style: none;
+        width: 100%;
+        margin: auto;
+        min-height: 30px;
+        
+        display: inline-block
+    }
+
+    li {
+        float: left;
+    }
 }
