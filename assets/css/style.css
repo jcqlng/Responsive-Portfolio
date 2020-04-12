@@ -213,4 +213,20 @@ address {
     li {
         float: left;
     }
+
+    .content-frame p {
+        color: #777777;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        line-height: 1.6;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    img {
+        display: block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 }
