@@ -29,17 +29,10 @@
 
 .logo {
     background: #4aaaa5;
-    border-bottom: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #fff;
-    height: 100%;
-    display: block;
-    margin-bottom: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 3%;
-    margin-left: 0%;
-    padding-right: 5px;
 }
 
 .nav-item {
@@ -79,11 +72,11 @@ html {
 
 ul {
     text-decoration: none;
+    float:right;
     display: block;
     clear: right;
     list-style: none;
     margin-top: 35px;
-    width: 10px;
 }
 
 li {
@@ -179,29 +172,4 @@ address {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 10px;
     font-size: small;
-}
-
-@media screen and (max-width 980px) {
-
-}
-
-@media screen and (max-width 768px) {
-
-}
-
-@media screen and (max-width 640px) {
-    .top-nav {
-        border-bottom: 2px solid #cccccc;
-        padding-bottom: 1px;
-        text-align: center;
-        background-color: white;
-        position: static;
-    }
-
-    .content-body {
-        text-align: center;
-        background-image: url("stucco.png");
-        min-height: 600px;
-        flex: 1 0 auto;
-    }   
 }
