@@ -183,5 +183,18 @@ address {
 }
 
 @media screen and (max-width 640px) {
+    .top-nav {
+        border-bottom: 2px solid #cccccc;
+        padding-bottom: 1px;
+        text-align: center;
+        background-color: white;
+        position: static;
+    }
 
+    .content-body {
+        text-align: center;
+        background-image: url("stucco.png");
+        min-height: 600px;
+        flex: 1 0 auto;
+    }   
 }
