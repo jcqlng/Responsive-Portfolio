@@ -189,6 +189,15 @@ address {
     html, body {
         overflow-x: hidden;
     }
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
     .logo {
         background: #4aaaa5;
         display: inline-block;
@@ -197,6 +206,11 @@ address {
         color: #fff;
         width: 95%;
         text-align: center;
+    }
+
+    footer {
+        margin-top: 120%;
+        bottom: 0;
     }
 
     ul {
